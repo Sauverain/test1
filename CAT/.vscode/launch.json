@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "CAT"
+        },
+        {
+            "type": "java",
+            "name": "Launch CAT Dashboard",
+            "request": "launch",
+            "mainClass": "com.dashboard.Main",
+            "projectName": "CAT",
+            "vmArgs": "--module-path \"${userHome}/.m2/repository/org/openjfx/javafx-controls/21;${userHome}/.m2/repository/org/openjfx/javafx-graphics/21;${userHome}/.m2/repository/org/openjfx/javafx-base/21\" --add-modules javafx.controls"
+        }
+    ]
+}
